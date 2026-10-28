@@ -244,8 +244,8 @@
     },
     {
       "path": "release-audit.md",
-      "sha256": "8192c675dec19bfab71c29eabae44c479237f2d2af6cba0c27deecf806ee9971",
-      "bytes": 3547,
+      "sha256": "4fe244aeb55fff5b5766276024a0a99bd2943e46e729379daf09e7504ec72562",
+      "bytes": 3862,
       "origin": "Tide827 project publication",
       "license": "Apache-2.0"
     },
@@ -265,8 +265,8 @@
     },
     {
       "path": "scripts/build_release.py",
-      "sha256": "943d2263daf0ae1ebffa8a5568cfb1c7fdc5b94b878e8145c191e7d5bbdc6799",
-      "bytes": 6197,
+      "sha256": "3674bd5c43d67d95fd5048d1971af89c8f2412b1c6b520d009c94a81e1f76ea9",
+      "bytes": 6193,
       "origin": "Tide827 project publication",
       "license": "Apache-2.0"
     },

@@ -56,7 +56,7 @@ Documentation and issue tracker: https://github.com/3154410240smh-arch/aircraft-
    if p.is_file():
     info=zipfile.ZipInfo(NAME+'/'+p.relative_to(b).as_posix(),date_time=(2026,10,28,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o644<<16;z.writestr(info,p.read_bytes())
  audit=inspect_zip(zpath)
- for src,dest in [('manifests/release-manifest.json','release-manifest.json'),('release-audit.md','release-audit.md'),('tests/INSTALLATION_TEST_REPORT.md','INSTALLATION_TEST_REPORT.md'),('docs/dependency-policy.md','DEPENDENCY_AUDIT.md'),('README.zh-CN.md','README_发布与使用说明.md')]:shutil.copyfile(ROOT/src,dist/dest)
+ for src,dest in [('manifests/release-manifest.json','release-manifest.json'),('release-audit.md','release-audit.md'),('tests/INSTALLATION_TEST_REPORT.md','INSTALLATION_TEST_REPORT.md'),('docs/dependency-policy.md','DEPENDENCY_AUDIT.md'),('README.zh-CN.md','README_Release_and_Usage.md')]:shutil.copyfile(ROOT/src,dist/dest)
  (dist/'SHA256SUMS.txt').write_text(''.join(f'{digest(p)}  {p.name}\n'for p in sorted(dist.iterdir())if p.is_file() and p.name!='SHA256SUMS.txt'),encoding='utf-8')
  print(json.dumps(audit,ensure_ascii=False,indent=2));return zpath
 if __name__=='__main__':build()

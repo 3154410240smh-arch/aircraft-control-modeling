@@ -20,6 +20,8 @@ Git attributes explicitly recognize CRLF as a valid line ending while disabling 
 
 The release-stage audit requires actual final-ZIP Windows results and post-upload anonymous download/hash/CRC verification before PUBLISHED_PRE_RELEASE may be reported. File installation, Codex metadata discovery, current desktop activation and external toolchain health remain different conclusions. See tests/INSTALLATION_TEST_REPORT.md and docs/limitations.md.
 
+Release asset filenames use ASCII so that GitHub filename normalization cannot invalidate the published checksum list; the usage document remains Chinese in content, and the repository retains README.zh-CN.md. The archive itself still contains its Chinese installation entry and supports Chinese filesystem paths.
+
 ## Recovery and safety
 
 The installer uses complete verified staging, explicit main replacement approval, full old-directory backup outside skills, persistent receipts/events and object-scoped rollback. Dependency conflicts fail rather than silently upgrade. Reused/unrelated Skills are not removed, later user edits block destructive rollback. No recipient production config or model permission is changed.
