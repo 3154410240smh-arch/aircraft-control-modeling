@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "dependencies": [
+    {
+      "name": "building-simulink-models",
+      "kind": "required",
+      "required": true,
+      "trigger": "结构、参数、连接编辑（主工作流必需）",
+      "bundled": true,
+      "version": "1.1",
+      "repository": "https://github.com/matlab/simulink-agentic-toolkit",
+      "commit": "ead4c58f4b62ba0d57fe70c80484746de07a1501",
+      "official_path": "skills-catalog/model-based-design-core/building-simulink-models",
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit/tree/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/building-simulink-models",
+      "raw_base": "https://raw.githubusercontent.com/matlab/simulink-agentic-toolkit/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/building-simulink-models/",
+      "files": [
+        {
+          "relative": "manifest.yaml",
+          "sha256": "69f92448774fc6cc92f97cc9c434e586ae19042459cc00f55754cddc998e1ea6"
+        },
+        {
+          "relative": "SKILL.md",
+          "sha256": "e593bf785722e0ace5266a8aea5662cf2017f14b3d889a13f0433733fd13243f"
+        },
+        {
+          "relative": "reference/simscape.md",
+          "sha256": "1000d28eab80eb11192b8f7d2f98f5a40e6922ec8ec80b230d820f575ff8e563"
+        },
+        {
+          "relative": "reference/stateflow.md",
+          "sha256": "e4f679918ff894717cc236577dad737565014643b7960c26751c0dc43e5c411a"
+        },
+        {
+          "relative": "reference/system-composer.md",
+          "sha256": "2c7f66bd29f514a1f364e9e391735aa9bd8ac1ef09e83ffe73d5bfd0b2d96745"
+        }
+      ],
+      "license_file": "licenses/MathWorks-ead4c58f4b62.md",
+      "license": "MathWorks license: redistribution allowed with notices/disclaimer; solely in conjunction with MathWorks products/service offerings",
+      "install_directory": "${CODEX_HOME}/skills/building-simulink-models",
+      "verification": "exact listed files, SHA256 and skill name; existing differing versions rejected without overwrite"
+    },
+    {
+      "name": "filing-bug-reports",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "报告工具缺陷；辅助依赖提供的条件流程",
+      "bundled": true,
+      "version": "1.0",
+      "repository": "https://github.com/matlab/simulink-agentic-toolkit",
+      "commit": "ead4c58f4b62ba0d57fe70c80484746de07a1501",
+      "official_path": "skills-catalog/model-based-design-core/filing-bug-reports",
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit/tree/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/filing-bug-reports",
+      "raw_base": "https://raw.githubusercontent.com/matlab/simulink-agentic-toolkit/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/filing-bug-reports/",
+      "files": [
+        {
+          "relative": "manifest.yaml",
+          "sha256": "c2395f34bb0b90776ddbbcebab705af6c6a216f02b650602d696ea74ffb93ce3"
+        },
+        {
+          "relative": "SKILL.md",
+          "sha256": "ad891be5564c73eca38dceec11c135b031ca8de14da6a36c8079b17a48fd9865"
+        },
+        {
+          "relative": "reference/bug-report-template.md",
+          "sha256": "24e62f2fe61c3a62645983a27ce0928935e40ce011d3a6d4f957dda5cdfe9d85"
+        }
+      ],
+      "license_file": "licenses/MathWorks-ead4c58f4b62.md",
+      "license": "MathWorks license: redistribution allowed with notices/disclaimer; solely in conjunction with MathWorks products/service offerings",
+      "install_directory": "${CODEX_HOME}/skills/filing-bug-reports",
+      "verification": "exact listed files, SHA256 and skill name; existing differing versions rejected without overwrite"
+    },
+    {
+      "name": "generate-requirement-drafts",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "模型需求草案；辅助依赖提供的条件流程",
+      "bundled": true,
+      "version": "2.1",
+      "repository": "https://github.com/matlab/simulink-agentic-toolkit",
+      "commit": "ead4c58f4b62ba0d57fe70c80484746de07a1501",
+      "official_path": "skills-catalog/model-based-design-core/generate-requirement-drafts",
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit/tree/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/generate-requirement-drafts",
+      "raw_base": "https://raw.githubusercontent.com/matlab/simulink-agentic-toolkit/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/generate-requirement-drafts/",
+      "files": [
+        {
+          "relative": "manifest.yaml",
+          "sha256": "b41c4e139cb417d8b8362c36ef97d3515ceaee459c3922014857aa7f6450ba26"
+        },
+        {
+          "relative": "SKILL.md",
+          "sha256": "b68f0c4301b8d30c826dc1b466837b14c8021739d03954faf1caf6982d5e5545"
+        },
+        {
+          "relative": "reference/slreq-patterns.md",
+          "sha256": "55308aa7061a84edd5134c7fa24957c4a3a7b7193293dae1ea85cf09cc3aa6eb"
+        },
+        {
+          "relative": "reference/yaml-requirements.md",
+          "sha256": "e5dc6cc59f48fff1a377a381aeb15575a41b26358baa8ca2c9c2af9e18def156"
+        },
+        {
+          "relative": "reference/examples/requirements.yaml",
+          "sha256": "6cc4f3a5d654ed7879f756304ec7a923970d73145bb41cec6e835328b12c2569"
+        },
+        {
+          "relative": "reference/examples/slreq_from_model.m",
+          "sha256": "0e654262dbf5ac9a2ca2a2f81ba08b71471108830f649f31de2dd117e6c68c51"
+        }
+      ],
+      "license_file": "licenses/MathWorks-ead4c58f4b62.md",
+      "license": "MathWorks license: redistribution allowed with notices/disclaimer; solely in conjunction with MathWorks products/service offerings",
+      "install_directory": "${CODEX_HOME}/skills/generate-requirement-drafts",
+      "verification": "exact listed files, SHA256 and skill name; existing differing versions rejected without overwrite"
+    },
+    {
+      "name": "simulating-simulink-models",
+      "kind": "required",
+      "required": true,
+      "trigger": "SimulationInput/Output仿真（主工作流必需）",
+      "bundled": true,
+      "version": "1.1",
+      "repository": "https://github.com/matlab/simulink-agentic-toolkit",
+      "commit": "ead4c58f4b62ba0d57fe70c80484746de07a1501",
+      "official_path": "skills-catalog/model-based-design-core/simulating-simulink-models",
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit/tree/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/simulating-simulink-models",
+      "raw_base": "https://raw.githubusercontent.com/matlab/simulink-agentic-toolkit/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/simulating-simulink-models/",
+      "files": [
+        {
+          "relative": "manifest.yaml",
+          "sha256": "4f4b96f3459a5ef6b33e713b9daab9b09c049d4e90b793e38e4b767f14ae394a"
+        },
+        {
+          "relative": "SKILL.md",
+          "sha256": "c014748011ce6b0ce72a6c9ae6045fde1c9c4b57f5a3ccf7c06ed89ce40e1165"
+        }
+      ],
+      "license_file": "licenses/MathWorks-ead4c58f4b62.md",
+      "license": "MathWorks license: redistribution allowed with notices/disclaimer; solely in conjunction with MathWorks products/service offerings",
+      "install_directory": "${CODEX_HOME}/skills/simulating-simulink-models",
+      "verification": "exact listed files, SHA256 and skill name; existing differing versions rejected without overwrite"
+    },
+    {
+      "name": "specifying-mbd-algorithms",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "新控制算法规格",
+      "bundled": true,
+      "version": "1.0",
+      "repository": "https://github.com/matlab/simulink-agentic-toolkit",
+      "commit": "ead4c58f4b62ba0d57fe70c80484746de07a1501",
+      "official_path": "skills-catalog/model-based-design-core/specifying-mbd-algorithms",
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit/tree/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/specifying-mbd-algorithms",
+      "raw_base": "https://raw.githubusercontent.com/matlab/simulink-agentic-toolkit/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/specifying-mbd-algorithms/",
+      "files": [
+        {
+          "relative": "manifest.yaml",
+          "sha256": "35dad0985f1ff39cf62b7bc5b5972b4ef1e8c44438fd10eb30eea4eb1e4267f0"
+        },
+        {
+          "relative": "SKILL.md",
+          "sha256": "b52062b52a1762b493e4bd0c20970e97fc6c815ab15f24b5591d7452621d37bd"
+        },
+        {
+          "relative": "reference/algorithm-guidance.md",
+          "sha256": "fa05c56283dbb9ef1ea0aebc6083f7873a22e5a17be901aeb4247c37f794018a"
+        },
+        {
+          "relative": "reference/architecture-spec-template.md",
+          "sha256": "918b61a02a6e5c87c719363a85dff8c38fd2357e6261a64e9d30d026dc5e9f9f"
+        },
+        {
+          "relative": "reference/component-spec-template.md",
+          "sha256": "c4e9eaed030c8e2c3d14917a1e165d6eee9a30ca8bf8f6d229837c5faceee6e3"
+        },
+        {
+          "relative": "reference/detailed-spec-template.md",
+          "sha256": "d57590fa448cc7d1a8f6b27e5174501c861a54fcbd6015d678db70a02c1b0669"
+        },
+        {
+          "relative": "reference/implementation-plan-template.md",
+          "sha256": "258d218c34b66b6d303a80591f977f8772ce15c4000998566834afcc6aa6bacd"
+        },
+        {
+          "relative": "reference/spec-types.md",
+          "sha256": "e590d80253f181c70ceaf31a306b7528d74e9331f07d46e31eb0d929001f8eb6"
+        },
+        {
+          "relative": "reference/system-spec-template.md",
+          "sha256": "5b7da3f51987b2097b75bdc899d3fc4c89296bbb3894a5c1dd80f4d1a53a9490"
+        },
+        {
+          "relative": "reference/test-plan-template.md",
+          "sha256": "26ae96a32f25308a3db9de1f43279d9a7fe3617c380d2aaac008622b562febac"
+        }
+      ],
+      "license_file": "licenses/MathWorks-ead4c58f4b62.md",
+      "license": "MathWorks license: redistribution allowed with notices/disclaimer; solely in conjunction with MathWorks products/service offerings",
+      "install_directory": "${CODEX_HOME}/skills/specifying-mbd-algorithms",
+      "verification": "exact listed files, SHA256 and skill name; existing differing versions rejected without overwrite"
+    },
+    {
+      "name": "specifying-plant-models",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "新物理对象规格",
+      "bundled": true,
+      "version": "1.0",
+      "repository": "https://github.com/matlab/simulink-agentic-toolkit",
+      "commit": "ead4c58f4b62ba0d57fe70c80484746de07a1501",
+      "official_path": "skills-catalog/model-based-design-core/specifying-plant-models",
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit/tree/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/specifying-plant-models",
+      "raw_base": "https://raw.githubusercontent.com/matlab/simulink-agentic-toolkit/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/specifying-plant-models/",
+      "files": [
+        {
+          "relative": "manifest.yaml",
+          "sha256": "1274e69657b8eb7d1f6f83b367ae123dec11cfaafc9fffe66f6eb860750d4453"
+        },
+        {
+          "relative": "SKILL.md",
+          "sha256": "f92ca20766d734155ff506d33c30574b523fa943a270e2f54b029bc70dec0911"
+        },
+        {
+          "relative": "reference/architecture-spec-template.md",
+          "sha256": "974577d3657dcd2863b947e4f19d965bc16ee6919a7f0884d03f6a257a883085"
+        },
+        {
+          "relative": "reference/implementation-plan-template.md",
+          "sha256": "1a7e9693431b508e7e34054dc285bcd1f54d10f1448cad4fdfc2b8bb67305f03"
+        },
+        {
+          "relative": "reference/plant-model-guidance.md",
+          "sha256": "70bf23ee3bde0af915bfb9af68e81c58b9ad9c68e9261f151d9ee8f38d1aca70"
+        },
+        {
+          "relative": "reference/system-spec-template.md",
+          "sha256": "6972702af00d39cb0f7696c8eb6ad83e53ce3c46b0fef54b75d3500a46106a15"
+        },
+        {
+          "relative": "reference/test-plan-template.md",
+          "sha256": "df0b756cbfcc6d57b77ff2e86e4470eb62ed5df4856f86fbb37fd2e6b5f50aa1"
+        }
+      ],
+      "license_file": "licenses/MathWorks-ead4c58f4b62.md",
+      "license": "MathWorks license: redistribution allowed with notices/disclaimer; solely in conjunction with MathWorks products/service offerings",
+      "install_directory": "${CODEX_HOME}/skills/specifying-plant-models",
+      "verification": "exact listed files, SHA256 and skill name; existing differing versions rejected without overwrite"
+    },
+    {
+      "name": "testing-simulink-models",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "持久化模型/子系统测试，另需Simulink Test",
+      "bundled": true,
+      "version": "1.0",
+      "repository": "https://github.com/matlab/simulink-agentic-toolkit",
+      "commit": "ead4c58f4b62ba0d57fe70c80484746de07a1501",
+      "official_path": "skills-catalog/model-based-design-core/testing-simulink-models",
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit/tree/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/testing-simulink-models",
+      "raw_base": "https://raw.githubusercontent.com/matlab/simulink-agentic-toolkit/ead4c58f4b62ba0d57fe70c80484746de07a1501/skills-catalog/model-based-design-core/testing-simulink-models/",
+      "files": [
+        {
+          "relative": "manifest.yaml",
+          "sha256": "1a72db8b8358413dedaa1e166075079b7febd52d90f0d778b14b378effd73029"
+        },
+        {
+          "relative": "SKILL.md",
+          "sha256": "9a9df11480ea4565cc65deb511a5a83831c4f9eb3ff6b6e4db76b1d94df43cc0"
+        }
+      ],
+      "license_file": "licenses/MathWorks-ead4c58f4b62.md",
+      "license": "MathWorks license: redistribution allowed with notices/disclaimer; solely in conjunction with MathWorks products/service offerings",
+      "install_directory": "${CODEX_HOME}/skills/testing-simulink-models",
+      "verification": "exact listed files, SHA256 and skill name; existing differing versions rejected without overwrite"
+    },
+    {
+      "name": "managing-simulink-projects",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "工程和依赖管理",
+      "bundled": true,
+      "version": "1.1",
+      "repository": "https://github.com/matlab/simulink-agentic-toolkit",
+      "commit": "ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f",
+      "official_path": "skills-catalog/model-based-design-core/managing-simulink-projects",
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit/tree/ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f/skills-catalog/model-based-design-core/managing-simulink-projects",
+      "raw_base": "https://raw.githubusercontent.com/matlab/simulink-agentic-toolkit/ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f/skills-catalog/model-based-design-core/managing-simulink-projects/",
+      "files": [
+        {
+          "relative": "manifest.yaml",
+          "sha256": "2605755819b5f32e81eb1847905ae326a531f94421200b584e7dce5ebf59d7e0"
+        },
+        {
+          "relative": "SKILL.md",
+          "sha256": "4087aea1263d62848f772ec91a704064d1b876a432b29686e1ea941f37ccc6e3"
+        },
+        {
+          "relative": "references/data-dictionaries.md",
+          "sha256": "ea11c38b4ba7deaf4289b955326ce914535b354b23061c6c7c14a64c9c482298"
+        },
+        {
+          "relative": "references/labels-and-automation.md",
+          "sha256": "c47ab33905e27dd9976b1a65d214547dded6bbe0c782f9ef59a44e6b8f824f36"
+        },
+        {
+          "relative": "references/model-references.md",
+          "sha256": "c3243ab8680e42c7c147d81090843b35d38703c5187f3fed21932ae7e1faa0cb"
+        },
+        {
+          "relative": "references/path-and-file-management.md",
+          "sha256": "3f1a9f80af4e5935e4e3fb0ec10e5de24e68565297776e36823c209831a30b88"
+        },
+        {
+          "relative": "references/source-control-and-caching.md",
+          "sha256": "c7b549b3d824ed3089ff39acd0d7505a7ab9b653458e31eb9e843298dbe8bbb3"
+        }
+      ],
+      "license_file": "licenses/MathWorks-ef5d5f8faeca.md",
+      "license": "MathWorks license: redistribution allowed with notices/disclaimer; solely in conjunction with MathWorks products/service offerings",
+      "install_directory": "${CODEX_HOME}/skills/managing-simulink-projects",
+      "verification": "exact listed files, SHA256 and skill name; existing differing versions rejected without overwrite"
+    },
+    {
+      "name": "setup-custom-libraries",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "自定义库准备",
+      "bundled": true,
+      "version": "1.2.1",
+      "repository": "https://github.com/matlab/simulink-agentic-toolkit",
+      "commit": "ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f",
+      "official_path": "skills-catalog/model-based-design-core/setup-custom-libraries",
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit/tree/ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f/skills-catalog/model-based-design-core/setup-custom-libraries",
+      "raw_base": "https://raw.githubusercontent.com/matlab/simulink-agentic-toolkit/ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f/skills-catalog/model-based-design-core/setup-custom-libraries/",
+      "files": [
+        {
+          "relative": "manifest.yaml",
+          "sha256": "9717f734e870b0d4bda427252b57be0e742e652d349a377dd63c2847be691563"
+        },
+        {
+          "relative": "SKILL.md",
+          "sha256": "54a9ef33aa78d2a3b11a5e0543c2fbfe9253ee802b577a6c899f5c341da7f481"
+        },
+        {
+          "relative": "references/library-setup.md",
+          "sha256": "e3f4c2bbd09a92652eacf7391dc27029092481cbc1851e1068744ac79666a986"
+        }
+      ],
+      "license_file": "licenses/MathWorks-ef5d5f8faeca.md",
+      "license": "MathWorks license: redistribution allowed with notices/disclaimer; solely in conjunction with MathWorks products/service offerings",
+      "install_directory": "${CODEX_HOME}/skills/setup-custom-libraries",
+      "verification": "exact listed files, SHA256 and skill name; existing differing versions rejected without overwrite"
+    },
+    {
+      "name": "configuring-block-policy",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "自定义模块策略",
+      "bundled": true,
+      "version": "1.1",
+      "repository": "https://github.com/matlab/simulink-agentic-toolkit",
+      "commit": "ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f",
+      "official_path": "skills-catalog/model-based-design-core/configuring-block-policy",
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit/tree/ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f/skills-catalog/model-based-design-core/configuring-block-policy",
+      "raw_base": "https://raw.githubusercontent.com/matlab/simulink-agentic-toolkit/ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f/skills-catalog/model-based-design-core/configuring-block-policy/",
+      "files": [
+        {
+          "relative": "manifest.yaml",
+          "sha256": "dff8d29815b3b6dee1f1019eb4ae5925c752855118cd5cc3a2f75a531c97e22a"
+        },
+        {
+          "relative": "SKILL.md",
+          "sha256": "787c4fa60af24bc619026daa8d1dfc67a1cdd20fb7348365b307f9936edf657d"
+        }
+      ],
+      "license_file": "licenses/MathWorks-ef5d5f8faeca.md",
+      "license": "MathWorks license: redistribution allowed with notices/disclaimer; solely in conjunction with MathWorks products/service offerings",
+      "install_directory": "${CODEX_HOME}/skills/configuring-block-policy",
+      "verification": "exact listed files, SHA256 and skill name; existing differing versions rejected without overwrite"
+    },
+    {
+      "name": "simulink-linearize",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "配平/线性化",
+      "bundled": true,
+      "version": "1.0",
+      "repository": "https://github.com/matlab/simulink-agentic-toolkit",
+      "commit": "ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f",
+      "official_path": "skills-catalog/control-systems/simulink-linearize",
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit/tree/ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f/skills-catalog/control-systems/simulink-linearize",
+      "raw_base": "https://raw.githubusercontent.com/matlab/simulink-agentic-toolkit/ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f/skills-catalog/control-systems/simulink-linearize/",
+      "files": [
+        {
+          "relative": "manifest.yaml",
+          "sha256": "e6589e0a657320de62643b6b6a4f1c002d7c6a3e96656d9fb3f982fb04513b9f"
+        },
+        {
+          "relative": "SKILL.md",
+          "sha256": "005dc28a292a10756d0d8f539a5ac4ffed46366dd5bfccf661e6ce867c840225"
+        }
+      ],
+      "license_file": "licenses/MathWorks-ef5d5f8faeca.md",
+      "license": "MathWorks license: redistribution allowed with notices/disclaimer; solely in conjunction with MathWorks products/service offerings",
+      "install_directory": "${CODEX_HOME}/skills/simulink-linearize",
+      "verification": "exact listed files, SHA256 and skill name; existing differing versions rejected without overwrite"
+    },
+    {
+      "name": "simulink-interactions",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "指向当前界面/选中模型",
+      "bundled": false,
+      "official_source": null,
+      "commit": null,
+      "license": "UNVERIFIED for exact locally installed version",
+      "status": "UNVERIFIED",
+      "scope_blocked": "Only this conditional specialist route if not otherwise discovered. Core model build/simulation not blocked. No guessed download, no automatic substitute."
+    },
+    {
+      "name": "matlab-debugging",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "MATLAB函数调试",
+      "bundled": false,
+      "official_source": null,
+      "commit": null,
+      "license": "UNVERIFIED for exact locally installed version",
+      "status": "UNVERIFIED",
+      "scope_blocked": "Only this conditional specialist route if not otherwise discovered. Core model build/simulation not blocked. No guessed download, no automatic substitute."
+    },
+    {
+      "name": "matlab-optimize-performance",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "函数性能分析",
+      "bundled": false,
+      "official_source": null,
+      "commit": null,
+      "license": "UNVERIFIED for exact locally installed version",
+      "status": "UNVERIFIED",
+      "scope_blocked": "Only this conditional specialist route if not otherwise discovered. Core model build/simulation not blocked. No guessed download, no automatic substitute."
+    },
+    {
+      "name": "simulink-debug-commandline",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "块方法逐时刻调试",
+      "bundled": false,
+      "official_source": null,
+      "commit": null,
+      "license": "UNVERIFIED for exact locally installed version",
+      "status": "UNVERIFIED",
+      "scope_blocked": "Only this conditional specialist route if not otherwise discovered. Core model build/simulation not blocked. No guessed download, no automatic substitute."
+    },
+    {
+      "name": "simulink-profiler-analyzer",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "仿真性能诊断",
+      "bundled": false,
+      "official_source": null,
+      "commit": null,
+      "license": "UNVERIFIED for exact locally installed version",
+      "status": "UNVERIFIED",
+      "scope_blocked": "Only this conditional specialist route if not otherwise discovered. Core model build/simulation not blocked. No guessed download, no automatic substitute."
+    },
+    {
+      "name": "simulink-solver-profiler-analyzer",
+      "kind": "conditional",
+      "required": false,
+      "trigger": "求解器性能诊断",
+      "bundled": false,
+      "official_source": null,
+      "commit": null,
+      "license": "UNVERIFIED for exact locally installed version",
+      "status": "UNVERIFIED",
+      "scope_blocked": "Only this conditional specialist route if not otherwise discovered. Core model build/simulation not blocked. No guessed download, no automatic substitute."
+    }
+  ],
+  "external_toolchain": [
+    {
+      "name": "MATLAB + Simulink",
+      "kind": "external_toolchain",
+      "required": true,
+      "official_source": "https://www.mathworks.com/products/simulink.html",
+      "installed_by_package": false,
+      "verification": "UNVERIFIED; actual licensed executable/runtime call needed separately"
+    },
+    {
+      "name": "Simulink Agentic Toolkit + MATLAB MCP Server",
+      "kind": "external_toolchain",
+      "required": true,
+      "official_source": "https://github.com/matlab/simulink-agentic-toolkit",
+      "installed_by_package": false,
+      "verification": "UNVERIFIED; current registered schema and live backend must be checked in recipient Codex session"
+    },
+    {
+      "name": "Control System Toolbox / Stateflow / Simulink Test / analysis tools",
+      "kind": "external_toolchain",
+      "required": false,
+      "trigger": "LQR/LQI gain recomputation; MATLAB Function; persistent test; task-specific analysis",
+      "installed_by_package": false,
+      "official_source": "https://www.mathworks.com/products/",
+      "verification": "UNVERIFIED, conditional product licenses are not skill files"
+    }
+  ],
+  "policy": "Offline default installs all 11 proven bundled auxiliary Skills. Unknown-origin conditional specialist routes not bundled or auto-fetched. No toolchain or config installation."
+}

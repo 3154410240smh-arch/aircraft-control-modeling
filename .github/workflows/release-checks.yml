@@ -1,0 +1,32 @@
+name: Release checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  source-and-windows-installer:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Source, dependency pins, links, hashes and secret checks
+        run: python scripts/check_release.py
+      - name: PowerShell parser check
+        shell: powershell
+        run: |
+          $bad = $false
+          Get-ChildItem installer/*.ps1 | ForEach-Object {
+            $tokens = $null; $parseErrors = $null
+            [void][System.Management.Automation.Language.Parser]::ParseFile($_.FullName, [ref]$tokens, [ref]$parseErrors)
+            if ($parseErrors.Count) { $parseErrors | Write-Error; $bad = $true }
+          }
+          if ($bad) { exit 1 }
+      - name: Build and validate offline archive
+        run: python scripts/build_release.py
+      - name: Extract final ZIP and run isolated Windows install/rollback tests
+        run: python tests/installer/test_install.py --zip dist/Aircraft-Control-Modeling-v2.5.1-rc1-Installer.zip
+      - name: Check whitespace and clean tracked content
+        run: |
+          git diff --check
+          git diff --exit-code

@@ -1,0 +1,10 @@
+Aircraft Control Modeling
+Copyright 2026 Tide827
+
+The original project Skill, documentation, installer, and project-authored examples are licensed under Apache License 2.0. Copyright attribution and permission were explicitly confirmed by the project owner for this public release.
+
+Files under third-party/skills and third-party/licenses, and corresponding auxiliary Skill payloads in the installer, retain their original MathWorks copyright, license conditions and disclaimers. They are NOT relicensed under Apache-2.0. Their license permits redistribution subject to the supplied conditions, including use solely in conjunction with MathWorks products and service offerings. See manifests/dependencies.json for exact source commits.
+
+No MATLAB, Simulink, SATK runtime, official MCP executable, credentials, private configuration, or geometry-executor authorization is distributed. This independent project is not endorsed by MathWorks, OpenAI or ETH Zurich.
+
+The quadrotor example summary refers to ETH Zurich ASL RotorS public Hummingbird parameters. No RotorS source file or commercial product is bundled. See examples/quadrotor-lqi/README.md for source and modeling limitations.

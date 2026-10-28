@@ -1,0 +1,70 @@
+{
+  "version": "2.5.1-rc1",
+  "test_scope": "isolated Windows directories, not production installation; final archive re-extraction is tested separately in external acceptance report",
+  "installation_tests": [
+    {
+      "test": "clean_install",
+      "status": "PASS"
+    },
+    {
+      "test": "clean_verify",
+      "status": "PASS"
+    },
+    {
+      "test": "idempotent_all_reused",
+      "status": "PASS"
+    },
+    {
+      "test": "partial_existing_external_reused",
+      "status": "PASS"
+    },
+    {
+      "test": "partial_verify",
+      "status": "PASS"
+    },
+    {
+      "test": "dependency_conflict_no_write",
+      "status": "PASS"
+    },
+    {
+      "test": "main_conflict_requires_approval",
+      "status": "PASS"
+    },
+    {
+      "test": "approved_upgrade_full_backup",
+      "status": "PASS"
+    },
+    {
+      "test": "upgrade_rollback_exact",
+      "status": "PASS"
+    },
+    {
+      "test": "midway_failure_auto_rollback",
+      "status": "PASS"
+    },
+    {
+      "test": "real_download_failure_no_skill_writes",
+      "status": "PASS"
+    },
+    {
+      "test": "payload_hash_failure_before_install",
+      "status": "PASS"
+    },
+    {
+      "test": "fresh_install_uninstall_loop",
+      "status": "PASS"
+    },
+    {
+      "test": "rollback_preserves_later_user_edits",
+      "status": "PASS"
+    }
+  ],
+  "real_write_permission_denial": "PASS",
+  "isolated_product_skill_metadata_scan": "PASS",
+  "current_desktop_activation": "UNVERIFIED",
+  "recipient_toolchain": "UNVERIFIED",
+  "protected_main_payload": "frozen six original files, unmodified",
+  "no_matlab_calls": true,
+  "unbundled_conditional_routes": 6,
+  "limitations": "Source-specific auxiliary versions fixed; differing installed versions blocked; no automatic toolchain setup or executor registration."
+}

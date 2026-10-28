@@ -1,0 +1,11 @@
+# Windows installer test evidence
+
+The prior private installer acceptance ran the actual final extracted ZIP on Windows using system PowerShell. It passed 18 checks: clean install and verify; exact idempotent reuse; two compatible existing external auxiliary Skills and missing-item completion; partial verify; dependency conflict; main conflict rejection; approved upgrade/full backup; exact rollback; failure after two Skill writes with automatic recovery; actual fixed-URL download connection failure before writes; tampered payload hash rejection; install/uninstall loop; refusal to overwrite later user edits; real NTFS ACL write denial; actual BAT installation; BAT verification; default-path rollback.
+
+The public packaging keeps the exact accepted six-file Skill and auxiliary payload hashes. It replaces the earlier private-sharing distribution notice with owner-approved Apache-2.0 for project-authored content, adds public documentation, and preserves all separate MathWorks notices. The repository's portable Windows suite repeats the same 18 scenarios against its final ZIP. Local and GitHub results must be reported from actual executions; this static description is not a claim that hosted CI has already run.
+
+The first public-package local suite completed on 2026-10-28 with all 18 scenarios PASS, using the actual extracted archive and system Windows PowerShell. The post-freeze final archive is checked again before release. Raw personal-path logs remain local and ignored; this document records the scenarios rather than copying private receipts into Git.
+
+No MATLAB or model operation is part of installer testing. Prior independent Codex app-server metadata scanning found the correct isolated main Skill; it does not prove recipient desktop body activation. TOOLCHAIN and recipient activation remain UNVERIFIED. Successful optional Online-mode download and other platforms/policies remain outside the certified offline path.
+
+Run `python tests/installer/test_install.py --zip dist/Aircraft-Control-Modeling-v2.5.1-rc1-Installer.zip` on Windows. Raw outputs/receipts/journals are saved only in ignored .test-runs directories, never public source. Do not publish personal installation logs.

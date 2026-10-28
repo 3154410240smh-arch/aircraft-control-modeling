@@ -1,0 +1,22 @@
+{
+  "status": "PASS for 2 mandatory and 9 bundled conditional Skill sources",
+  "main_candidate": "2.5.1-rc1, frozen six SHA256 files; owner-authorized peer redistribution",
+  "bundled_auxiliary_count": 11,
+  "fixed_commits": [
+    "ead4c58f4b62ba0d57fe70c80484746de07a1501",
+    "ef5d5f8faeca13d8c66e94828bf6a44aadaa8b3f"
+  ],
+  "source_byte_identity": "Every packaged auxiliary file matched official Git blob at specified commit, not merely same version header",
+  "licenses": "Full original license/copyright retained; MathWorks-only use condition disclosed",
+  "not_bundled_conditions": [
+    "simulink-interactions",
+    "matlab-debugging",
+    "matlab-optimize-performance",
+    "simulink-debug-commandline",
+    "simulink-profiler-analyzer",
+    "simulink-solver-profiler-analyzer"
+  ],
+  "unknown_optional_route_status": "UNVERIFIED, blocked only when task requires unavailable skill",
+  "external_toolchain": "Not installed, not configured, not tested",
+  "no_secrets_or_development_paths": true
+}

@@ -1,0 +1,708 @@
+{
+  "schema_version": 1,
+  "version": "2.5.1-rc1",
+  "release_type": "pre-release",
+  "copyright": "2026 Tide827",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "b0b6cbb09b47a97599d3ae2a17dd0718ce2ce70086dc7d2d80b9b502a46459f3",
+      "bytes": 121,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "3b934511b51155d5792ee03ad7ec1840079cc0411cabf3b715859618b16a0889",
+      "bytes": 518,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "5e7cfcd430e3313294ab166ffe40dd9cd50700086dbf9f9e72929f39f1ff9448",
+      "bytes": 341,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": ".github/workflows/release-checks.yml",
+      "sha256": "a55b5dca72322e92f99a98cd59a5f3b2b287ba0fba3dadebb3a1cee0a7bbb650",
+      "bytes": 1311,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "6047e88324b16d63c0e184ded2ff027cc7b5d08183c0397e302429f8d7e8e24d",
+      "bytes": 108,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "21c4b170b4b3e39f8d23e6ee1224eec7bc37715d33c229a5f48ce0cb66819e71",
+      "bytes": 236,
+      "origin": "accepted frozen main Skill",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "be965a48b540787e5ff282a33aa71631b99e440d97397ad01bc1097c640dd213",
+      "bytes": 1011,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "482404e630034466c147cc2cb65a11201971905549243cea77fbcb3b6c8bd570",
+      "bytes": 577,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "2b1d9d25841e7e1c3c6e7637fb675baeec456f313ebebc9f645a230fbb898a85",
+      "bytes": 1227,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "193383fd11b03ee74860eb8394904bc27b1d9bb670dd8ae4b7b3b37e77245ed0",
+      "bytes": 1597,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "docs/compatibility.md",
+      "sha256": "dfdaa8d8e69f11eb4c646fc33d6dac08badd9043a56a08041b37ed4196070a0f",
+      "bytes": 1245,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "docs/dependency-policy.md",
+      "sha256": "24cbe71f1ae8697d0d6b5c862506a3f17c2253d8bd8143b58d3d253fc4766acf",
+      "bytes": 2252,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "docs/installation.md",
+      "sha256": "38be1970c61e8d883457433b1111fca6a47cdb59d13ca78d4cb7ef079dc49532",
+      "bytes": 4135,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "docs/limitations.md",
+      "sha256": "9bcaa887a2b46193a6a51e3f7ba0e16751398c2c46349775f40f736020828b0b",
+      "bytes": 2254,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "docs/troubleshooting.md",
+      "sha256": "077205462dd21942d519fb251756ac1b7f8c09e195a2a205d24f8b029eaa2ed6",
+      "bytes": 1456,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "examples/quadrotor-lqi/allocation_core.m",
+      "sha256": "9476dcb381ac0b82294019dd8d523de3a51392f7b02232bc07248f13e2b56e19",
+      "bytes": 394,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "examples/quadrotor-lqi/lqi_core.m",
+      "sha256": "a5cf2ebfe87797488d8feeeb7546698bbb299be252f535563fea9fdcf5a4584e",
+      "bytes": 373,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "examples/quadrotor-lqi/README.md",
+      "sha256": "377b9b250cd94458ac27d39ad8138716ec8ee0575b78215ce6de5c45772c4fc5",
+      "bytes": 3059,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "install.bat",
+      "sha256": "072acbf1dcb55d0fe220a5a5a7970738e8eed8a078d2640bce4900f8161209d6",
+      "bytes": 183,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "installer/common.ps1",
+      "sha256": "622d0a626dcd7ed2cf620f737cb162b41c1f85f6c8f751b3b74761de5aa3b1be",
+      "bytes": 5999,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "installer/install.ps1",
+      "sha256": "742b511560c9ff711d9457739bbbf43d114af4b1d4c0369781d615797bb95dd0",
+      "bytes": 6927,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "installer/rollback.ps1",
+      "sha256": "6ac73181c17733f3b9ecef8ecf32d0eaa448f03e1af08384993ef66dadbc5a58",
+      "bytes": 1420,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "installer/verify.ps1",
+      "sha256": "b93d30f16c36e75b92fd494b8f3252b4ae38b8432dae4b40e853c97ddbf3bd93",
+      "bytes": 1138,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "manifests/candidate-baseline.json",
+      "sha256": "8bd7d824b59ca451929944069af7af7a092e4508d7c447eec6682ee666715db7",
+      "bytes": 2016,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "manifests/dependencies.json",
+      "sha256": "7f3cde0c2eec35c3bd76d8ec84e48dc89a1779f8716d95f10c347314852081d4",
+      "bytes": 26336,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "manifests/dependency-audit.json",
+      "sha256": "3242a22a64a74823180bd65a4188d4a946c33bb4df442d1721bd4f2f11511946",
+      "bytes": 1027,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "145556cd7848025facb8690c6b7f34416fafb737ea299b9bf736481ac7d27a05",
+      "bytes": 1195,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a2f25816d1869e592223bf799790c5566d03ff0a6db154475e2782173d6f5d5e",
+      "bytes": 5701,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "ac88caebeef6275e1bb467a7939b4ab90d70bc3d6f25be018e25084c2cb37ffd",
+      "bytes": 4005,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "references/engineering.md",
+      "sha256": "3dd9dc18d23e54d5257e8b0f174180c792b19b27305c256853225eb704d8d8c3",
+      "bytes": 19064,
+      "origin": "accepted frozen main Skill",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "references/local-toolchain.md",
+      "sha256": "927f77b1ff95b63fcdaf7553dc05ce06f96d638ffab1b2d14d3bcd8cd72f3e5f",
+      "bytes": 9816,
+      "origin": "accepted frozen main Skill",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "references/runtime-diagnostics.md",
+      "sha256": "204bbe96b963db077f8bd5de40a9d2f27d430bdc61b544c335ddb24240da4219",
+      "bytes": 5283,
+      "origin": "accepted frozen main Skill",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "b35b1c4cb7b9d1d9a0eb6286b49bb003915f8b22d2c318262092d42d0b94b3ad",
+      "bytes": 27267,
+      "origin": "accepted frozen main Skill",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "release-audit.md",
+      "sha256": "8192c675dec19bfab71c29eabae44c479237f2d2af6cba0c27deecf806ee9971",
+      "bytes": 3547,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "release-notes.md",
+      "sha256": "5e0d5c964f7ded17f5ae6706a94527f4f388cccc99b2678052defd6607ac7863",
+      "bytes": 1721,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "rollback.bat",
+      "sha256": "940e529e76ef56efe93aba4035ad4ef94919ac847f0c2d06b16e2cbbc3ec514c",
+      "bytes": 184,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "scripts/build_release.py",
+      "sha256": "943d2263daf0ae1ebffa8a5568cfb1c7fdc5b94b878e8145c191e7d5bbdc6799",
+      "bytes": 6197,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "scripts/check_release.py",
+      "sha256": "fb0f5cef598cde94c6ba92d3e88a8b5004b52d02f5c966d4b4956d2128a54210",
+      "bytes": 6123,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "scripts/freeze_manifest.py",
+      "sha256": "4b0ec3d32f46b60eee3d0f7f198dbfe568c24c5a8750302ff7eb39f3593d085b",
+      "bytes": 1560,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "02df0e025046551269250a2bd9bfc716326ecc2d3b48e89a4a3d97c9f8728375",
+      "bytes": 1058,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "aae1f787aad168dbe9fdbe5758baacadcb81943223c7e61838740b522ee137a3",
+      "bytes": 7463,
+      "origin": "accepted frozen main Skill",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "SUPPORT.md",
+      "sha256": "036d5d925d46f7c5cb7fe6d67fece77de450ea0995cf7c7c527409fdfeb20059",
+      "bytes": 729,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "tests/fixtures/prior-installation-summary.json",
+      "sha256": "7bebfb2a3b812c69c0f25b8f27cd59be5c8059dda02725bb5fa24eb9ebc31890",
+      "bytes": 1871,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "tests/INSTALLATION_TEST_REPORT.md",
+      "sha256": "bbb9248c4e3ddef76251348e3171a8b0257793da98b411b2f4f45f18dfd3b485",
+      "bytes": 2212,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "tests/installer/test_install.py",
+      "sha256": "779159f36026700a107dbf421d26f9861083ae222786acef7b69b9e42e2803e4",
+      "bytes": 8553,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "third-party/licenses/MathWorks-ead4c58f4b62.md",
+      "sha256": "0da2efb2251003469c80e945b850e2c6761283784d341739f8e6ba8a257b8ec5",
+      "bytes": 1490,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/licenses/MathWorks-ef5d5f8faeca.md",
+      "sha256": "0da2efb2251003469c80e945b850e2c6761283784d341739f8e6ba8a257b8ec5",
+      "bytes": 1490,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/building-simulink-models/manifest.yaml",
+      "sha256": "69f92448774fc6cc92f97cc9c434e586ae19042459cc00f55754cddc998e1ea6",
+      "bytes": 518,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/building-simulink-models/reference/simscape.md",
+      "sha256": "1000d28eab80eb11192b8f7d2f98f5a40e6922ec8ec80b230d820f575ff8e563",
+      "bytes": 2772,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/building-simulink-models/reference/stateflow.md",
+      "sha256": "e4f679918ff894717cc236577dad737565014643b7960c26751c0dc43e5c411a",
+      "bytes": 4565,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/building-simulink-models/reference/system-composer.md",
+      "sha256": "2c7f66bd29f514a1f364e9e391735aa9bd8ac1ef09e83ffe73d5bfd0b2d96745",
+      "bytes": 1859,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/building-simulink-models/SKILL.md",
+      "sha256": "e593bf785722e0ace5266a8aea5662cf2017f14b3d889a13f0433733fd13243f",
+      "bytes": 5729,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/configuring-block-policy/manifest.yaml",
+      "sha256": "dff8d29815b3b6dee1f1019eb4ae5925c752855118cd5cc3a2f75a531c97e22a",
+      "bytes": 605,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/configuring-block-policy/SKILL.md",
+      "sha256": "787c4fa60af24bc619026daa8d1dfc67a1cdd20fb7348365b307f9936edf657d",
+      "bytes": 3864,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/filing-bug-reports/manifest.yaml",
+      "sha256": "c2395f34bb0b90776ddbbcebab705af6c6a216f02b650602d696ea74ffb93ce3",
+      "bytes": 337,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/filing-bug-reports/reference/bug-report-template.md",
+      "sha256": "24e62f2fe61c3a62645983a27ce0928935e40ce011d3a6d4f957dda5cdfe9d85",
+      "bytes": 4314,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/filing-bug-reports/SKILL.md",
+      "sha256": "ad891be5564c73eca38dceec11c135b031ca8de14da6a36c8079b17a48fd9865",
+      "bytes": 4736,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/generate-requirement-drafts/manifest.yaml",
+      "sha256": "b41c4e139cb417d8b8362c36ef97d3515ceaee459c3922014857aa7f6450ba26",
+      "bytes": 564,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/generate-requirement-drafts/reference/examples/requirements.yaml",
+      "sha256": "6cc4f3a5d654ed7879f756304ec7a923970d73145bb41cec6e835328b12c2569",
+      "bytes": 1822,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/generate-requirement-drafts/reference/examples/slreq_from_model.m",
+      "sha256": "0e654262dbf5ac9a2ca2a2f81ba08b71471108830f649f31de2dd117e6c68c51",
+      "bytes": 2770,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/generate-requirement-drafts/reference/slreq-patterns.md",
+      "sha256": "55308aa7061a84edd5134c7fa24957c4a3a7b7193293dae1ea85cf09cc3aa6eb",
+      "bytes": 4479,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/generate-requirement-drafts/reference/yaml-requirements.md",
+      "sha256": "e5dc6cc59f48fff1a377a381aeb15575a41b26358baa8ca2c9c2af9e18def156",
+      "bytes": 2297,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/generate-requirement-drafts/SKILL.md",
+      "sha256": "b68f0c4301b8d30c826dc1b466837b14c8021739d03954faf1caf6982d5e5545",
+      "bytes": 9977,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/managing-simulink-projects/manifest.yaml",
+      "sha256": "2605755819b5f32e81eb1847905ae326a531f94421200b584e7dce5ebf59d7e0",
+      "bytes": 798,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/managing-simulink-projects/references/data-dictionaries.md",
+      "sha256": "ea11c38b4ba7deaf4289b955326ce914535b354b23061c6c7c14a64c9c482298",
+      "bytes": 1360,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/managing-simulink-projects/references/labels-and-automation.md",
+      "sha256": "c47ab33905e27dd9976b1a65d214547dded6bbe0c782f9ef59a44e6b8f824f36",
+      "bytes": 2146,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/managing-simulink-projects/references/model-references.md",
+      "sha256": "c3243ab8680e42c7c147d81090843b35d38703c5187f3fed21932ae7e1faa0cb",
+      "bytes": 1583,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/managing-simulink-projects/references/path-and-file-management.md",
+      "sha256": "3f1a9f80af4e5935e4e3fb0ec10e5de24e68565297776e36823c209831a30b88",
+      "bytes": 3264,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/managing-simulink-projects/references/source-control-and-caching.md",
+      "sha256": "c7b549b3d824ed3089ff39acd0d7505a7ab9b653458e31eb9e843298dbe8bbb3",
+      "bytes": 1516,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/managing-simulink-projects/SKILL.md",
+      "sha256": "4087aea1263d62848f772ec91a704064d1b876a432b29686e1ea941f37ccc6e3",
+      "bytes": 5286,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/setup-custom-libraries/manifest.yaml",
+      "sha256": "9717f734e870b0d4bda427252b57be0e742e652d349a377dd63c2847be691563",
+      "bytes": 848,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/setup-custom-libraries/references/library-setup.md",
+      "sha256": "e3f4c2bbd09a92652eacf7391dc27029092481cbc1851e1068744ac79666a986",
+      "bytes": 6263,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/setup-custom-libraries/SKILL.md",
+      "sha256": "54a9ef33aa78d2a3b11a5e0543c2fbfe9253ee802b577a6c899f5c341da7f481",
+      "bytes": 6070,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/simulating-simulink-models/manifest.yaml",
+      "sha256": "4f4b96f3459a5ef6b33e713b9daab9b09c049d4e90b793e38e4b767f14ae394a",
+      "bytes": 323,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/simulating-simulink-models/SKILL.md",
+      "sha256": "c014748011ce6b0ce72a6c9ae6045fde1c9c4b57f5a3ccf7c06ed89ce40e1165",
+      "bytes": 4817,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/simulink-linearize/manifest.yaml",
+      "sha256": "e6589e0a657320de62643b6b6a4f1c002d7c6a3e96656d9fb3f982fb04513b9f",
+      "bytes": 491,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/simulink-linearize/SKILL.md",
+      "sha256": "005dc28a292a10756d0d8f539a5ac4ffed46366dd5bfccf661e6ce867c840225",
+      "bytes": 10128,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-mbd-algorithms/manifest.yaml",
+      "sha256": "35dad0985f1ff39cf62b7bc5b5972b4ef1e8c44438fd10eb30eea4eb1e4267f0",
+      "bytes": 401,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-mbd-algorithms/reference/algorithm-guidance.md",
+      "sha256": "fa05c56283dbb9ef1ea0aebc6083f7873a22e5a17be901aeb4247c37f794018a",
+      "bytes": 2713,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-mbd-algorithms/reference/architecture-spec-template.md",
+      "sha256": "918b61a02a6e5c87c719363a85dff8c38fd2357e6261a64e9d30d026dc5e9f9f",
+      "bytes": 11085,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-mbd-algorithms/reference/component-spec-template.md",
+      "sha256": "c4e9eaed030c8e2c3d14917a1e165d6eee9a30ca8bf8f6d229837c5faceee6e3",
+      "bytes": 4685,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-mbd-algorithms/reference/detailed-spec-template.md",
+      "sha256": "d57590fa448cc7d1a8f6b27e5174501c861a54fcbd6015d678db70a02c1b0669",
+      "bytes": 3779,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-mbd-algorithms/reference/implementation-plan-template.md",
+      "sha256": "258d218c34b66b6d303a80591f977f8772ce15c4000998566834afcc6aa6bacd",
+      "bytes": 9608,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-mbd-algorithms/reference/spec-types.md",
+      "sha256": "e590d80253f181c70ceaf31a306b7528d74e9331f07d46e31eb0d929001f8eb6",
+      "bytes": 1876,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-mbd-algorithms/reference/system-spec-template.md",
+      "sha256": "5b7da3f51987b2097b75bdc899d3fc4c89296bbb3894a5c1dd80f4d1a53a9490",
+      "bytes": 7757,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-mbd-algorithms/reference/test-plan-template.md",
+      "sha256": "26ae96a32f25308a3db9de1f43279d9a7fe3617c380d2aaac008622b562febac",
+      "bytes": 11174,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-mbd-algorithms/SKILL.md",
+      "sha256": "b52062b52a1762b493e4bd0c20970e97fc6c815ab15f24b5591d7452621d37bd",
+      "bytes": 7731,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-plant-models/manifest.yaml",
+      "sha256": "1274e69657b8eb7d1f6f83b367ae123dec11cfaafc9fffe66f6eb860750d4453",
+      "bytes": 399,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-plant-models/reference/architecture-spec-template.md",
+      "sha256": "974577d3657dcd2863b947e4f19d965bc16ee6919a7f0884d03f6a257a883085",
+      "bytes": 6930,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-plant-models/reference/implementation-plan-template.md",
+      "sha256": "1a7e9693431b508e7e34054dc285bcd1f54d10f1448cad4fdfc2b8bb67305f03",
+      "bytes": 10505,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-plant-models/reference/plant-model-guidance.md",
+      "sha256": "70bf23ee3bde0af915bfb9af68e81c58b9ad9c68e9261f151d9ee8f38d1aca70",
+      "bytes": 2455,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-plant-models/reference/system-spec-template.md",
+      "sha256": "6972702af00d39cb0f7696c8eb6ad83e53ce3c46b0fef54b75d3500a46106a15",
+      "bytes": 8378,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-plant-models/reference/test-plan-template.md",
+      "sha256": "df0b756cbfcc6d57b77ff2e86e4470eb62ed5df4856f86fbb37fd2e6b5f50aa1",
+      "bytes": 7036,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/specifying-plant-models/SKILL.md",
+      "sha256": "f92ca20766d734155ff506d33c30574b523fa943a270e2f54b029bc70dec0911",
+      "bytes": 8752,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/testing-simulink-models/manifest.yaml",
+      "sha256": "1a72db8b8358413dedaa1e166075079b7febd52d90f0d778b14b378effd73029",
+      "bytes": 350,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "third-party/skills/testing-simulink-models/SKILL.md",
+      "sha256": "9a9df11480ea4565cc65deb511a5a83831c4f9eb3ff6b6e4db76b1d94df43cc0",
+      "bytes": 7007,
+      "origin": "MathWorks pinned dependency",
+      "license": "see retained MathWorks license"
+    },
+    {
+      "path": "verify.bat",
+      "sha256": "5482e2a2cedb97c6611a4316fb2aa5d771cc8d95d649f6f88b0e127390be569d",
+      "bytes": 169,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "安装.bat",
+      "sha256": "072acbf1dcb55d0fe220a5a5a7970738e8eed8a078d2640bce4900f8161209d6",
+      "bytes": 183,
+      "origin": "Tide827 project publication",
+      "license": "Apache-2.0"
+    }
+  ],
+  "evidence": "examples/quadrotor-lqi/README.md",
+  "candidate_baseline": "manifests/candidate-baseline.json",
+  "artifact": {
+    "name": "Aircraft-Control-Modeling-v2.5.1-rc1-Installer.zip",
+    "sha256_file": "SHA256SUMS.txt in release assets",
+    "contents_manifest": "manifest.json inside installer archive"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "version": "2.5.1-rc1",
+  "production_baseline": "2.5.0-rc1 (separate; not changed)",
+  "owner": "Tide827",
+  "project_license": "Apache-2.0",
+  "main_files": [
+    {
+      "relative": "agents/openai.yaml",
+      "sha256": "21c4b170b4b3e39f8d23e6ee1224eec7bc37715d33c229a5f48ce0cb66819e71",
+      "bytes": 236
+    },
+    {
+      "relative": "references/engineering.md",
+      "sha256": "3dd9dc18d23e54d5257e8b0f174180c792b19b27305c256853225eb704d8d8c3",
+      "bytes": 19064
+    },
+    {
+      "relative": "references/local-toolchain.md",
+      "sha256": "927f77b1ff95b63fcdaf7553dc05ce06f96d638ffab1b2d14d3bcd8cd72f3e5f",
+      "bytes": 9816
+    },
+    {
+      "relative": "references/runtime-diagnostics.md",
+      "sha256": "204bbe96b963db077f8bd5de40a9d2f27d430bdc61b544c335ddb24240da4219",
+      "bytes": 5283
+    },
+    {
+      "relative": "references/verification.md",
+      "sha256": "b35b1c4cb7b9d1d9a0eb6286b49bb003915f8b22d2c318262092d42d0b94b3ad",
+      "bytes": 27267
+    },
+    {
+      "relative": "SKILL.md",
+      "sha256": "aae1f787aad168dbe9fdbe5758baacadcb81943223c7e61838740b522ee137a3",
+      "bytes": 7463
+    }
+  ],
+  "acceptance_report_sha256": "9f6ec919c255df9b18f6d89a1f70e8b2d963757eb712c41decbd6ee92c7c092c",
+  "accepted_model_sha256": "d24899e0b550bf0aa6c049be14b35714b4cd6cb6df2897a82b5a72e295c9df56",
+  "evidence_summary": "examples/quadrotor-lqi/README.md",
+  "case_results": {
+    "algorithm_tests": "PASS 68+8",
+    "static_validation": "PASS actual official quick_validate",
+    "control_cases": "PASS corrected6 + independent1",
+    "precision": "PASS",
+    "persistence": "PASS",
+    "recovery": "PASS",
+    "unverified": [
+      "all Fcn expression variants",
+      "saturation-excited full closed loop",
+      "general MF-containing geometry executor profile",
+      "independent Agent routing regression",
+      "real aircraft and full 6DOF"
+    ]
+  },
+  "unmodified_main_candidate": true
+}

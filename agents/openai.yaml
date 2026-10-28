@@ -1,0 +1,5 @@
+interface:
+  display_name: "飞行器控制建模"
+  short_description: "按确认方案组织原生模块建模、配平、控制设计与分层验证，保留真实证据和能力边界"
+policy:
+  allow_implicit_invocation: true

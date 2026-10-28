@@ -1,0 +1,4 @@
+* -text whitespace=cr-at-eol
+*.bat -text
+*.ps1 -text
+third-party/** whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof

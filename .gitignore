@@ -1,0 +1,12 @@
+/dist/
+/build/
+/.test-runs/
+__pycache__/
+*.pyc
+*.log
+*.mat
+*.slxc
+slprj/
+*.asv
+.env
+config.toml
